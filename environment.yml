@@ -1,0 +1,20 @@
+name: eawag
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - dask
+  - dask-image
+  - imageio
+  - jupyterlab
+  - ipywidgets   
+  - numpy
+  - pandas  
+  - scikit-image
+  - scipy    
+  - matplotlib
+  - matplotlib-scalebar
+  - seaborn
+  - tqdm
+  - openpyxl
