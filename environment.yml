@@ -20,3 +20,4 @@ dependencies:
   - tqdm
   - xlrd
   - openpyxl
+  - k3d
