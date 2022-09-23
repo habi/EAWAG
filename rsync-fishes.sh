@@ -36,6 +36,6 @@ rsync --human-readable --verbose --recursive --update --omit-dir-times ~/2214/EA
 #rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.md" --include="*.txt" --include="*.xl*" --exclude="*" ~/research-storage-iee/ ~/2214/EAWAG/
 # Generate us a copy of the 'support' files which we need for the publication on the fastSSD
 echo "iee -> FastSSD anaklin25"
-rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.?og" --include="*.c?v" --include="*_spr*.bmp" --include="*.txt" --include="*.md" --include="*.md" --exclude="*" ~/research-storage-iee/ /media/habi/Fast_SSD/EAWAG/
+rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.?og" --include="*.c?v" --include="*_spr*.bmp" --include="*.txt" --include="*.md" --exclude="*" ~/research-storage-iee/ /media/habi/Fast_SSD/EAWAG/
 echo "iee -> Github repository logfiles"
-rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.?og" --include="*.c?v" --include="*.txt" --include="*.md" --include="*.md" --exclude="*" ~/research-storage-iee/ ~/P/Documents/EAWAG/logfiles/
+rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.log" --include="*.csv" --include="*.txt" --include="*.md" --exclude="*" ~/research-storage-iee/ ~/P/Documents/EAWAG/logfiles/
