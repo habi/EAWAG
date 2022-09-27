@@ -4,15 +4,17 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - numpy
+  - scipy  
+  - jupyterlab
+  - nodejs
   - dask
+  - dask-labextension
   - dask-image
   - imageio
-  - jupyterlab
-  - ipywidgets   
-  - numpy
+  - ipywidgets
   - pandas  
-  - scikit-image
-  - scipy    
+  - scikit-image   
   - matplotlib
   - matplotlib-scalebar
   - seaborn
