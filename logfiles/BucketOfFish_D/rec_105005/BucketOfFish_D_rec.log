@@ -12,7 +12,7 @@ User Name=Skyscan4
 Computer Name=ANAMIC05
 [Acquisition]
 Data Directory=D:\Results\EAWAG\BucketOfFish_D\proj
-Filename Prefix=BucketOfFish_C
+Filename Prefix=BucketOfFish_D
 Number Of Files= 3601
 Number Of Rows= 1944
 Number Of Columns= 3072
@@ -58,7 +58,7 @@ Scan duration=3h:10m:41s
 Maximum vertical TS=1.0
 Maximum horizontal TS=2.0
 TS modified at=March07,15:20:08 ---  3601 of 3601 projections
-TS modified according to=D:\Results\EAWAG\BucketOfFish_D\proj\BucketOfFish_C_2DTransform.csv
+TS modified according to=D:\Results\EAWAG\BucketOfFish_D\proj\BucketOfFish_D_2DTransform.csv
 TS modified at level=3
 [Reconstruction]
 Reconstruction Program=NRecon
@@ -72,7 +72,7 @@ Postalignment=3.50
 Reconstructed using oversize-option=No
 Reconstruction servers= ANAMIC05 
 Dataset Origin=SkyScan2214
-Dataset Prefix=BucketOfFish_C
+Dataset Prefix=BucketOfFish_D
 Dataset Directory=D:\Results\EAWAG\BucketOfFish_D\proj
 Output Directory=D:\Results\EAWAG\BucketOfFish_D\rec_105005
 Time and Date=08 Mar 2022  12h:32m:06s
@@ -115,3 +115,6 @@ HU Calibration=OFF
 BMP LUT=0
 Cone-beam Angle Horiz.(deg)=40.246761
 Cone-beam Angle Vert.(deg)=26.108896
+[File name convention]
+Filename Index Length=8
+Filename Prefix=BucketOfFish_D_rec
