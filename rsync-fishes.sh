@@ -8,14 +8,14 @@ rsync --human-readable --verbose --recursive --update --omit-dir-times --include
 #echo "1272 -> archive"
 #rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.?og" --include="*.c?v" --include="*.?oi" --include="*.?at" --include="*_spr*.bmp" --include="*.txt" --include="*.md" --include="*.sb" --include="*.info" --include="*.?nc" --include="*.bkp" --include="*.?if" --include="*.pdf" --include="*.md" --exclude="*" ~/1272/EAWAG/ ~/research-storage-uct/Archiv_Tape/EAWAG/
 # Archive some (poentially) changed files from iee, too
-echo "iee -> archive"
-rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.?og" --include="*.c?v" --include="*.?oi" --include="*.?at" --include="*_spr*.bmp" --include="*.txt" --include="*.md" --include="*.sb" --include="*.info" --include="*.?nc" --include="*.bkp" --include="*.?if" --include="*.pdf" --include="*.md" --exclude="*" ~/research-storage-iee/ ~/research-storage-uct/Archiv_Tape/EAWAG/
+#echo "iee -> archive"
+#rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.?og" --include="*.c?v" --include="*.?oi" --include="*.?at" --include="*_spr*.bmp" --include="*.txt" --include="*.md" --include="*.sb" --include="*.info" --include="*.?nc" --include="*.bkp" --include="*.?if" --include="*.pdf" --include="*.md" --exclude="*" ~/research-storage-iee/ ~/research-storage-uct/Archiv_Tape/EAWAG/
 # --------------------------------------------------
 # ---------- Copy *all* data to iee drive ----------
 # --------------------------------------------------
 # 2214 to iee
-echo "2214 -> iee"
-rsync --human-readable --verbose --recursive --update --omit-dir-times ~/2214/EAWAG/ ~/research-storage-iee/
+#echo "2214 -> iee"
+#rsync --human-readable --verbose --recursive --update --omit-dir-times ~/2214/EAWAG/ ~/research-storage-iee/
 # 1272 to iee
 #echo "1272 -> iee"
 #rsync --human-readable --verbose --recursive --update --omit-dir-times ~/1272/EAWAG/ ~/research-storage-iee/
@@ -35,7 +35,7 @@ rsync --human-readable --verbose --recursive --update --omit-dir-times ~/2214/EA
 #echo "iee (Support files (.md, .txt, and .xls*)) --> 2214"
 #rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.md" --include="*.txt" --include="*.xl*" --exclude="*" ~/research-storage-iee/ ~/2214/EAWAG/
 # Generate us a copy of the 'support' files which we need for the publication on the fastSSD
-echo "iee -> FastSSD anaklin25"
-rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.?og" --include="*.enc" --include="*.c?v" --include="*_spr*.bmp" --include="*.txt" --include="*.md" --exclude="*" ~/research-storage-iee/ /media/habi/Fast_SSD/EAWAG/
-echo "iee -> Github repository logfiles"
-rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.log" --include="*.csv" --include="*.txt" --include="*.md" --include="*.enc" --exclude="*" ~/research-storage-iee/ ~/P/Documents/EAWAG/logfiles/
+#echo "iee -> FastSSD anaklin25"
+#rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.?og" --include="*.enc" --include="*.c?v" --include="*_spr*.bmp" --include="*.txt" --include="*.md" --exclude="*" ~/research-storage-iee/ /media/habi/Fast_SSD/EAWAG/
+#echo "iee -> Github repository logfiles"
+#rsync --human-readable --verbose --recursive --update --omit-dir-times --include="*/" --include="*.log" --include="*.csv" --include="*.txt" --include="*.md" --include="*.enc" --exclude="*" ~/research-storage-iee/ ~/P/Documents/EAWAG/logfiles/
