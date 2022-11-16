@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   - numpy
-  - scipy  
+  - scipy
   - jupyterlab
   - nodejs
   - dask
@@ -13,8 +13,8 @@ dependencies:
   - dask-image
   - imageio
   - ipywidgets
-  - pandas  
-  - scikit-image   
+  - pandas
+  - scikit-image
   - matplotlib
   - matplotlib-scalebar
   - seaborn
@@ -22,7 +22,8 @@ dependencies:
   - xlrd
   - openpyxl
   - k3d
+  - statsmodels  
   - pip:
     - ipywidgets==7.7.1
     - jupyterlab-widgets==1.1.0
-    - widgetsnbextension==3.6.1  
+    - widgetsnbextension==3.6.1
