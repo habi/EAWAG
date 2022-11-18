@@ -22,7 +22,9 @@ dependencies:
   - xlrd
   - openpyxl
   - k3d
-  - statsmodels  
+  - statsmodels
+  - zarr
+  - numcodecs
   - pip:
     - ipywidgets==7.7.1
     - jupyterlab-widgets==1.1.0
