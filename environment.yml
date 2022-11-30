@@ -1,31 +1,24 @@
 name: eawag
 channels:
-  - anaconda
   - conda-forge
-  - defaults
 dependencies:
   - numpy
   - scipy
-  - jupyterlab
-  - nodejs
-  - dask
-  - dask-labextension
-  - dask-image
   - imageio
-  - ipywidgets
+  - scikit-image  
   - pandas
-  - scikit-image
   - matplotlib
-  - matplotlib-scalebar
   - seaborn
-  - tqdm
-  - xlrd
-  - openpyxl
-  - k3d
   - statsmodels
+  - dask-core
+  - dask-image  
   - zarr
   - numcodecs
-  - pip:
-    - ipywidgets==7.7.1
-    - jupyterlab-widgets==1.1.0
-    - widgetsnbextension==3.6.1
+  - dask-image
+  - jupyterlab
+  - dask-labextension
+  - matplotlib-scalebar
+  - xlrd
+  - openpyxl
+  - tqdm
+  - k3d
