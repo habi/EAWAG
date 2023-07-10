@@ -1,4 +1,5 @@
 !*.log
+*.enc
 *.md
 *T*.csv
 FullHeadList.txt
