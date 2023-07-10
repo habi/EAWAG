@@ -115,3 +115,4 @@ HU Calibration=OFF
 BMP LUT=0
 Cone-beam Angle Horiz.(deg)=32.666969
 Cone-beam Angle Vert.(deg)=26.108711
+Pseudo-parallel projection calculated=1
